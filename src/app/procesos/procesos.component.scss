@@ -1,0 +1,121 @@
+.content
+{
+    padding: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(top,
+      rgba(242,246,248,1) 0%,
+      rgba(219,228,233,1) 14%,
+      rgba(216,225,231,1) 16%,
+      rgba(181,198,208,1) 74%,
+      rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top,
+      left bottom,
+      color-stop(0%,
+        rgba(242,246,248,1)),
+      color-stop(14%,
+        rgba(219,228,233,1)),
+      color-stop(16%,
+        rgba(216,225,231,1)),
+      color-stop(74%, r
+        gba(181,198,208,1)),
+      color-stop(100%,
+        rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(top,
+      rgba(242,246,248,1) 0%,
+      rgba(219,228,233,1) 14%,
+      rgba(216,225,231,1) 16%,
+      rgba(181,198,208,1) 74%,
+      rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(top,
+      rgba(242,246,248,1) 0%,
+      rgba(219,228,233,1) 14%,
+      rgba(216,225,231,1) 16%,
+      rgba(181,198,208,1) 74%,
+      rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%,
+      rgba(219,228,233,1) 14%,
+      rgba(216,225,231,1) 16%,
+      rgba(181,198,208,1) 74%,
+      rgba(224,239,249,1) 100%);
+    background: linear-gradient(to bottom,
+      rgba(242,246,248,1) 0%,
+      rgba(219,228,233,1) 14%,
+      rgba(216,225,231,1) 16%,
+      rgba(181,198,208,1) 74%,
+      rgba(224,239,249,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8',
+      endColorstr='#e0eff9', GradientType=0 );
+}
+//uso del mat input
+.example-form {
+  min-width: 100px;
+  max-width: 300px;
+  width: 40%;
+}
+.example-full-width {
+  width: 100%;
+}
+//uso de fuente
+.monseLetra
+{
+  font-family: 'Montserrat';
+  font-size: 40px;
+}
+//estilos de la tabla}
+table
+{
+  width: 100%;
+  text-align: left;
+  margin-top: 15px;
+  border-color: black;
+}
+table tr
+{
+    background-color: #eee;
+}
+table tr:nth-child(even)
+{
+    background-color: black;
+    font-family: 'Montserrat';
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+    font-family: 'Montserrat';
+}
+
+.botonRedondeado
+{
+  border-radius: 5px;
+  margin: 7px;
+  color: white;
+  background-color: black;
+}
+.botonCircular{
+  width:15px;
+  height:15px;
+  background-color:black;
+  margin: 5px;
+  padding:10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 50px;
+  font-size:11px;
+  line-height:32px;
+  text-transform: uppercase;
+  float:left;
+}
+.botonCircular:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
+.botonCircular a{
+  color:#fff;
+  text-decoration:none;
+  padding:5px 5px 5px 0;
+}

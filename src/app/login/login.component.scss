@@ -1,0 +1,83 @@
+/*div general que contiene todo pero no se porque 
+*vergas no le da puto tamaño completooo
+*/
+//clase de css que da formato al contenido dentro del div princiapl
+.content 
+{
+  padding: 0px;
+  //nada de margen para ningunos de los marcos de la pagina
+  margin:0px;
+  //tamaño al full de la pagina
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+  //fondo degradado guapachosoooo
+  background:linear-gradient(30deg, red,orange,yellow,green, blue,purple);
+}
+//cuadro del login
+.login-page 
+{
+  width: 360px;
+  padding: 1% 0 0;
+  margin: auto;
+  //opacity: 0.5;
+}
+//titulo Siscoop
+.titulo
+{
+  color:#FFFFFF;
+  font-size: 300%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+//estilo del form adaptandolo a que se adapte al tamanño que se le de (resposive)
+.form 
+{
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+//inputs del form formatito guapo :)
+.form input 
+{
+  //estilo imoirtadp
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  //background: #f2f2f2;
+  //width: 100%;
+  //border: 0;
+  //margin: 0 0 15px;
+  //padding: 15px;
+  //box-sizing: border-box;
+  font-size: 14px;
+}
+//estilo para los botoncitos guapos
+.form button 
+{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+//  
+}
+//fondo de color para los botones
+.form button:hover,
+.form button:active,
+.form button:focus 
+{
+  background: #43A047;
+}
+
+//contenedor del cuerpo de toda la pagina de login
